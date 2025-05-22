@@ -1,0 +1,29 @@
+Q 1 - Convert the sentence "I love coding" into an array of words?
+Ans - console.log("I love coding".split(" "));
+
+Q 2 - Convert the string "Alpha" into an array of characters ?
+Ans - console.log("Alpha".split(""));
+
+Q 3 - Print the ASCII value of the character "A" ?
+Ans - console.log("A".charCodeAt(0)); // 65
+
+Q 4 - Join the array ["web", "dev"] into a single string with a space in between ?
+Ans - console.log(["web", "dev"].join(" "));
+
+Q 5 - Given a string: "JavaScript is Awesome", convert it to:
+    a. All lowercase
+    b. All uppercase
+    c. Replace "Awesome" with "Powerful"
+    d. Check if the string starts with "Java"
+
+Ans - let str = "JavaScript is Awesome";
+a.) console.log(str.toLowerCase());
+b.) console.log(str.toUpperCase());
+c.) console.log(str.replace("Awesome", "Powerful"));
+d.) console.log(str.startsWith("Java"));
+
+Q 6 - From the string "AlphaIntern WebDev", extract the word "WebDev" ?
+Ans - console.log("AlphaIntern WebDev".split(" ")[1]);
+
+Q 7 - . From the string "apple, banana, grape", convert it into an array ?
+Ans - console.log("apple, banana, grape".split(", "));

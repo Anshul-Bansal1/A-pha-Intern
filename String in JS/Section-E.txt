@@ -1,0 +1,14 @@
+Q 1 -Replace the word "Intern" with "Mentor" in "AlphaIntern" ?
+Ans - console.log("AlphaIntern".replace("Intern", "Mentor"));
+
+Q 2 -. Replace all occurrences of "a" with "z" in "banana"?
+Ans - console.log("banana".replaceAll("a", "z"));
+
+Q 3 -Remove all extra spaces from the string " JavaScript is awesome " and print the result ?
+Ans - console.log(" JavaScript is awesome ".trim());
+
+Q 4 -Extract "Intern" from the string "AlphaIntern" ?
+Ans - console.log("AlphaIntern".slice(5)); // Intern
+
+Q 5 -Extract "Alpha" from the string "AlphaIntern" ?
+Ans - console.log("AlphaIntern".slice(0, 5)); // Alpha
